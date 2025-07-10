@@ -24,7 +24,9 @@ body {
   color: var(--color-text);
   line-height: 1.6;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 /* Main Container */
 .main-content {
   display: flex;
